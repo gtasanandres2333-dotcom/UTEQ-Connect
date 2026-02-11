@@ -50,7 +50,7 @@ const RegisterScreen = ({ navigation }: { navigation: any }) => {
             <Text style={styles.label}>NOMBRE Y APELLIDOS</Text>
             <TextInput
               style={styles.input}
-              placeholder="Juan Pérez García"
+              placeholder="Nombre Completo"
               placeholderTextColor="#999"
               value={fullName}
               onChangeText={setFullName}
@@ -72,7 +72,7 @@ const RegisterScreen = ({ navigation }: { navigation: any }) => {
 
           {/* Tipo de Usuario */}
           <View style={styles.inputGroup}>
-            <Text style={styles.label}>NOSE</Text>
+            <Text style={styles.label}>Tipo de Usuario</Text>
             <View style={styles.radioGroup}>
               <TouchableOpacity
                 style={styles.radioOption}
